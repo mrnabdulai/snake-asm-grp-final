@@ -1,0 +1,15 @@
+%ifndef SYSCALL_MAC
+%define SYSCALL_MAC
+
+%include "syscall_int.mac"
+
+extern ioctl
+extern sleep
+extern ioctl
+extern exit
+extern poll
+extern write
+
+%endif
+
+; vim:ft=nasm

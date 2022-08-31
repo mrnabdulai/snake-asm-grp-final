@@ -1,0 +1,13 @@
+%ifndef PRINT_MAC
+%define PRINT_MAC
+
+%include "print_int.mac"
+
+extern print
+extern print_num
+extern newline
+extern newline_len
+
+%endif
+
+; vim:ft=nasm
